@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0826a92aa5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>  
+  <!----------services------>
+  <div id="services">
+    <nav>
+      <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">Back</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+     
+      <div>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    <div class="container">
+      <h1 class="sub-title">Services Details</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-user-secret"></i>
+          <h2>Penetration Testing</h2>
+          <p><span>Tailored Scope and Strategy:</span> Collaborate closely with you to define a customized testing scope and strategic plan that aligns with your business goals.<br>
+            <span>In-Depth Reconnaissance:</span> Skillfully gather critical information about your system using advanced techniques, laying the foundation for a thorough assessment.<br>
+            <span>Expert Vulnerability Identification:</span> Leverage cutting-edge tools and expert manual techniques to uncover even the most elusive security weaknesses.<br>
+            <span>Safe and Insightful Exploitation:</span> Carefully and safely exploit vulnerabilities to provide a realistic view of potential impacts without disrupting your operations.<br>
+            <span>Comprehensive Post-Exploitation Analysis:</span> Assess the extent of access and potential damage to give you a clear understanding of risks and necessary defenses.<br>
+            <span>Clear and Actionable Reporting:</span> Deliver detailed reports featuring an executive summary, in-depth findings, and prioritized, actionable recommendations.<br>
+            <span>Dedicated Remediation Support:</span> Offer ongoing guidance and support to help you implement robust security measures and ensure vulnerabilities are effectively resolved.</p>
+           
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p><span>Customized Solutions:</span> Craft bespoke websites tailored to your unique business needs and goals.<br>
+            <span>Responsive Design:</span> Ensure your website looks and functions perfectly on all devices, from desktops to mobile phones.<br>
+            <span>User-Centric Experience:</span> Design intuitive, engaging interfaces that provide a seamless user experience.<br>
+            <span>Cutting-Edge Technologies:</span> Utilize the latest technologies and frameworks to build modern, high-performance websites.<br>
+            <span>SEO Optimization:</span> Optimize your website for search engines to increase visibility and drive traffic.<br>
+            <span>E-Commerce Integration:</span> Build and integrate e-commerce functionalities to streamline your online sales and transactions.<br>
+            <span>Ongoing Support and Maintenance:</span> Provide continuous support and maintenance to keep your website running smoothly and securely.<br>
+            <span>Performance Optimization:</span> Enhance website speed and performance for better user engagement and search engine ranking.<br>
+            <span>Robust Backend Development:</span> Develop strong, secure, and scalable backend systems to support your business operations.
+            </p>
+            
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-nodes"></i>
+          <h2>IoT Intergration</h2>
+          <p><span>Custom IoT Solutions:</span> Develop tailored IoT solutions that perfectly align with your specific business requirements and objectives.<br>
+            <span>Seamless Device Connectivity:</span> Ensure smooth and reliable connectivity between various IoT devices and your existing systems.<br>
+            <span>Smart Automation:</span> Design and integrate smart automation processes to enhance efficiency and productivity in your operations.<br>
+            <span>Scalable Architecture:</span> Build scalable IoT architectures that can grow with your business and adapt to evolving needs.<br>
+            <span>Enhanced Security:</span> Prioritize security with advanced measures to protect your IoT infrastructure from vulnerabilities and cyber threats.<br>
+            <span>Real-Time Monitoring:</span> Enable real-time monitoring and management of IoT devices for improved operational oversight.<br>
+            <span>User-Friendly Interfaces:</span> Create intuitive and user-friendly interfaces for easy control and management of IoT systems.<br>
+            <span>Predictive Maintenance:</span> Implement predictive maintenance solutions to minimize downtime and optimize the performance of your IoT devices.<br>
+            <span>Ongoing Support and Updates:</span> Provide continuous support, updates, and enhancements to keep your IoT systems running smoothly and effectively.</p>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------portfolio--------------->
+  <div id="portfolio">
+    <div class="container">       
+      <a href="index.html" class="btn">Back</a>
+    </div>
+  </div>
+  <!----contact------------------>
+  <div id="contact">
+    <div class="container">
+      <div class="raw"><!-------from row-----to raw---------------------->
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1><!------from tittle---to title---------------->
+          <p><i class="fas fa-paper-plane"></i>abishaimwanja@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> 0711512235</p>
+          <div class="social-icons">
+            <a href="https://web.facebook.com/profile.php?id=100084217397259"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/AbishaiMwanja"><i class="fa-brands fa-x-twitter"></i></i></i></a>
+            <a href="https://www.instagram.com/abishai246/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/abishai-mwanja-7b2a54249/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@abishaimwanja"><i class="fab fa-tiktok"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+   
+    <div class="copyright">
+      <p>copyright @ Sity4soft | Made with <i class="fa-solid fa-heart"></i> by Abishai Mwanja.</p>
+    </div>
+  </div>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-120px";
+      }
+    </script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwUPBfyndz1-HWB9_LOMKUFCEI_fjyW_2VGLWzXCqlVCPOEiZPj0ybkHwJ6QrHMV2pj/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg')
+      
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>  
+    
+    
+</body>
+</html>
+
+

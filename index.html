@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0826a92aa5.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div id="header">
+    <div id="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <h1>Hi, I'm <span>Festus Kiprotich</span></h1>
+            <p>Web Developer,Cybersecurity & Back-end Engineer</p>
+          </div>
+          <div>
+            <a href="#contact" class="btn">Hire Me</a>
+          </div>
+    </div>
+  </div>
+      
+            
+  <!-------About section------------>
+  <div id="about">
+    <div class="container">
+      <div class="raw">
+        <div class="about-col-1">
+          <img src="images/user.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated Information Technology Expert, with a robust professional journey that has equipped me with extensive knowledge in the technology industry. My expertise spans across various fields including artificial intelligence, web design and development, cybersecurity, and the Internet of Things (IoT), allowing me to deliver real, innovative solutions.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Cyber Security</span></li>
+              <li><span>Web Development</span></li>
+              <li><span>Machine learning</span></li>
+              <li><span>Cloud Computing</span></li>
+              <li><span>CISCO Certified Associate</span></li>
+              <li><span>Mobile App Development</span></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023-Current</span><br>Team lead  & Penetration Tester at Sity4soft</li>
+              <li><span>2022-2023</span><br>Web Developer at City4soft</li>
+              <li><span>2021-Current</span><br>Building custom IoT systems as hobby</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022-2026</span><br>B.Sc. in Computer Science from University of Eldoret.</li>
+              <li><span>Short Course Certifications</span><br>Artificial<br>Cloud Computing<br><br>Machine Learning<br>Ethical Hacking<br>CyberSecurity Experyt</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------services------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-user-secret"></i>
+          <h2>CyberSecurity</h2>
+          <p>I identify and exploit vulnerabilities by simulating real-world attacks, helping organizations strengthen their security.
+            My role is to deliver clear, actionable recommendations to safeguard systems and data from evolving threats.</p>
+            <a href="services.html">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>I design and build dynamic, user-friendly websites tailored to client needs. Leveraging modern technologies,
+             I create responsive, high-performance web applications that enhance user experience and drive engagement.</p>
+            <a href="services.html">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle-nodes"></i>
+          <h2>Machine learning</h2>
+          <p>I develop and implement IoT solutions that connect devices and systems seamlessly. By integrating sensors,
+             data analytics, and automation, I enhance operational efficiency and enable smarter decision-making across various applications.</p>
+            <a href="services.html">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------portfolio--------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Security Audit App</h3>
+            <p>"Engineered a robust Security Audit App designed to identify vulnerabilities, assess
+               risk levels, and enhance overall security posture for comprehensive protection against cyber threats."</p>
+              <a href="404.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Fitness Tracker</h3>
+            <p>"Developed a cutting-edge fitness tracking system that combines real-time data analytics 
+              with personalized workout recommendations to optimize users' health and performance."</p>
+              <a href="404.html"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Find Rentals App</h3>
+            <p>"Developed a user-friendly Find Rentals App that simplifies property searches, provides
+               detailed listings, and offers filtering options to connect users with their ideal rental properties efficiently."</p>
+              <a href="404.html"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        
+      </div>
+      <a href="work.html" class="btn">See More</a>
+    </div>
+  </div>
+  <!----contact------------------>
+  <div id="contact">
+    <div class="container">
+      <div class="raw"><!-------from row-----to raw---------------------->
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1><!------from tittle---to title---------------->
+          <p><i class="fas fa-paper-plane"></i>fkiprotich429@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>0768537546</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100082439030432"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/FestusK89922250?t=nyALw30GbF1hVANtEfzhcA&s=09"><i class="fa-brands fa-x-twitter"></i></i></i></a>
+            <a href="https://www.instagram.com/ankojdp?igsh=YzljYTk1ODg3Zg=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/cheruiyot-kiprotich-59a079299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@FestusKiprotich-js8gk"><i class="fab fa-youtube"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+   
+    <div class="copyright">
+      <p>copyright @ Sity4soft | Made with <i class="fa-solid fa-heart"></i> by Abishai Mwanja.</p>
+    </div>
+  </div>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-120px";
+      }
+    </script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxZzI-GarvsMOIx7kkEqvMr4lyPKbNhoWrv5qPsVhtcxSafzHNYTUrOcOs1eemhUoB3/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg')
+      
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>  
+    
+    
+</body>
+</html>
+
+
